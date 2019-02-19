@@ -1,0 +1,4 @@
+#!/bin/bash
+yum install oci-utils -y
+yum update -y
+systemctl start ocid.service
